@@ -685,6 +685,25 @@ body.light-theme{
   border-radius: .5rem;
 }
 
+.work__button{
+  width: max-content;
+  color: var(--first-color);
+  font-size: var(--small-font-size);
+  display: flex;
+  align-items: center;
+  column-gap: .25rem ;
+  margin-top: .5rem;
+}
+
+.work__button:hover .work__icon{
+  transform: translateX(.25rem);
+}
+
+.work__icon{
+  font-size: 1rem;
+  transition: .4s; 
+}
+
 .work__card{
   background-color: var(--container-color);
   padding: 1rem;
