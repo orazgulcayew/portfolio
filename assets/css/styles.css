@@ -242,6 +242,15 @@ body.light-theme{
   justify-content: space-between;
   align-items: center;
 }
+.nav__logo-container{
+  display: flex;
+  align-items: center;
+}
+
+.go-logo{
+  height: 24px;
+  margin-right: 1rem;
+}
 
 .nav__logo{
   color: var(--first-color);
@@ -949,6 +958,9 @@ body.light-theme{
   .home__buttons{
     flex-direction: column;
   }
+  .go-logo{
+    height: 30px;
+  }
   .home__handle{
     width: 150px;
     height: 253px;
@@ -1024,6 +1036,9 @@ body.light-theme{
   .work__container{
     justify-content: center;
   }
+  .go-logo{
+    height: 30px;
+  }
 
   .work__img{
     width: 295px;
@@ -1050,6 +1065,9 @@ body.light-theme{
   .work__card{
     width: 300px;
   }
+  .go-logo{
+    height: 30px;
+  }
   
   .contact__container{
     grid-template-columns: repeat(2, max-content);
@@ -1072,6 +1090,9 @@ body.light-theme{
   }
   .section{
     padding: 6.5rem 0 1rem;
+  }
+  .go-logo{
+    height: 30px;
   }
   .section__title{
     margin-bottom: 3.5rem;
